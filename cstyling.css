@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: border-box;
+}
+
+.logo i{
+    height: 90px;
+    width: 80px;
+    background-size: cover;
+    margin-left: 10px;
+    margin-top: 30px;
+    font-size: 45px;
+}
+
+.border{
+    border: 1.5px solid transparent;
+}
+.navbar{
+    position: fixed;
+    height: 80px;
+    width: 100%;
+    background-color: #152c46;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav-elements a{
+    padding-left: 9rem;
+    text-decoration: none;
+    color:white;
+    font-size: 1rem;
+    
+}
+.nav-elements a:hover{
+    color:#b5d7e2;
+}
+
+
+.nav-search{
+    display: flex;
+    justify-content: space-between;
+    background-color: pink;
+    width: 250px;
+    height: 30px;
+    border-radius: 4px;
+    margin-left: 150px;
+}
+
+.search-input{
+    width: 100%;
+    font-size: 0.8rem;
+    font-weight: 0.5rem;
+    border: none;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    background-color: #dce7e8;
+}
+
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    background-color: #152c46;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: white;
+}
+
+/* body section */
+
+.body-section a{
+    text-decoration: none;
+    display: flex;
+    color: #196680;
+    font-size: 1.3rem;
+    justify-content: left;
+    margin-left: 50px;
+    margin-top: 30px;
+    font-weight: bold;
+    padding: 3%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.body-section a:hover{
+    color: #062530;
+}
+.body-section{
+    margin-top: 30px;
+    background-color: #c1d5dc;
+    width: 100%;
+    height: 1300px;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+}
+
+footer{
+    height: 40px;
+    width: 100%;
+    background-color: #152c46;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 1rem;
+    font-weight: 80%;
+}
+
+@media screen and (max-width: 600px)
+{
+    .logo i{
+        height: 40px;
+        width: 30px;
+        background-size: cover;
+        margin-left: 8px;
+        margin-top: 20px;
+        font-size: 20px;
+    }
+
+    .body-section a:hover{
+        color: #062530;
+    }
+
+    .navbar{
+        height: 50px;
+        width: 100%;
+        background-color: #152c46;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .nav-elements a{
+        padding-left: 1.3rem;
+        text-decoration: none;
+        color:white;
+        font-size: 0.55rem;
+    }
+
+    .nav-search{
+        display: flex;
+        justify-content: space-between;
+        background-color: pink;
+        width: 100px;
+        height: 15px;
+        border-radius: 4px;
+        margin-left: 25px;
+    }
+
+    .search-input{
+        width: 100%;
+        font-size: 0.45rem;
+        font-weight: 0.5rem;
+        border: none;
+        border-top-left-radius: 4px;
+        border-bottom-left-radius: 4px;
+        background-color: #dce7e8;
+    }
+
+    .search-icon{
+        width: 35px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 0.65rem;
+        background-color: #152c46;
+        border-top-right-radius: 4px;
+        border-bottom-right-radius: 4px;
+        color: white;
+    }
+
+    .body-section{
+        height: 800px;
+    }
+
+
+    .body-section a{
+        text-decoration: none;
+        display: flex;
+        /* font-size: 0.65rem; */
+        color: #196680;
+        font-size: 1rem;
+        justify-content: left;
+        margin-left: 30px;
+        margin-top: 30px;
+        font-weight: bold;
+        padding: 3%;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    footer{
+        height: 20px;
+        width: 100%;
+        background-color: #152c46;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        font-size: 0.6rem;
+        font-weight: 80%;
+    }
+
+    
+}
